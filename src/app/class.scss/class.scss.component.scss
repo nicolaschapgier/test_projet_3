@@ -1,3 +1,54 @@
+// dans INDEX.HTML   ==>
+// <link href="https://fonts.cdnfonts.com/css/arial" rel="stylesheet">
+// <link href="https://fonts.cdnfonts.com/css/helvetica-2" rel="stylesheet">
+// <link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+
+// dans tous les .SCSS  ==>     (vérifier le chemin, selon indentation)
+// @import "../../styles.scss";
+
+// dans style.scss d'origine    ==>
+
+$main-color-default: #ffffff;
+$second-color-default: #0088ce;
+$third-color-default: #f2f2f2;
+
+$main-color-darkMode: #0c131f;
+$second-color-darkMode: #0088ce;
+$third-color-darkMode: #ffffff;
+
+$main-color-blindness: #17345f;
+$second-color-blindness: #ee4b2f;
+$third-color-blindness: #ffffff;
+
+$main-color-admin: #6e1e78;
+$second-color-admin: #a1006b;
+$third-color-admin: #ffffff;
+
+$titleH1FontFamily: "Arial", sans-serif;
+$titleHFontFamily: "Arial Light", sans-serif;
+$textFontFamily: "Helvetica", sans-serif;
+$titleDyslexic: "Helvetica", sans-serif;
+$textDyslexic: "Open-Dyslexic", sans-serif;
+
+h1 {
+  font-family: $titleH1FontFamily;
+}
+
+h2,
+h3,
+h4 {
+  font-family: $titleHFontFamily;
+  color : $main-color-admin;
+}
+
+p {
+  font-family: $textFontFamily;
+}
+
+.dyslexic {
+  font-family: $textDyslexic;
+}
+
 ///////////////////////////////////////// Default
 
 .body_default {
@@ -41,7 +92,8 @@
 }
 
 button {
-  color: white;
+  cursor: pointer;
+  background-color: white;
 }
 
 .button_valide_default {
