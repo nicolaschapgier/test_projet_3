@@ -1,45 +1,83 @@
-.body_default{
+///////////////////////////////////////// DEFAULT
+
+.body_default {
+  background-color: #0088ce;
+  color: black;
+}
+
+.navbar_default {
   background-color: #0088ce;
   color: white;
 }
 
-.navbar_default{
-  background-color: #0088CE;
-  color : white;
-}
-
-.icone_access_default{
+.icone_access_default {
   background-color: white;
-  color : #333333;
+  color: #333333;
 }
 
-.icone_pen_default{
-  color : #0088CE;
+.icone_pen_default {
+  color: #0088ce;
 }
 
-.card{ // pour ajouter, modifier, vailder
+.card {
+  // pour ajouter, modifier, vailder
   border-radius: 10%;
-  color : white;
+  color: white;
   // box-shadow: ; à définir
 }
 
-.title_fem{
-  color : 0088CE;
+.title_fem {
+  color: 0088CE;
 }
 
-.input_default{
+.input_default {
   background-color: grey;
-  color : black;
+  color: black;
 }
 
-button{
-  color : white
+.icone_relative_page{
+  background-color: #0088ce;
+  color:white;
 }
 
-.button_valide_default{
-  background-color: #0088CE;
+button {
+  color: white;
 }
 
-.button_cancel_default{
+.button_valide_default {
+  background-color: #0088ce;
+}
+
+.button_cancel_default {
   background-color: red;
 }
+
+.burger{
+  color : black;
+}
+///////////////////////////////////////// Dark
+
+.body_default {
+  background-color: #0c131f;
+  color: white;
+}
+
+button {
+  color: black;
+}
+
+.icone_relative_page{
+  background-color: #0c131f;
+  border: #0c131f;
+  color:#0088ce;
+}
+
+.burger{
+  color : #0088ce;
+}
+
+.icone_access_default {
+  background-color: 0088ce;
+  color: #0c131f;
+}
+
