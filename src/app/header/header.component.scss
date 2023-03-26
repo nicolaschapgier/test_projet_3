@@ -1,0 +1,13 @@
+@import "../../styles.scss";
+
+p {
+  color: $second-color-default;
+  border-bottom: 0.2px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3vh;
+  i {
+    margin: 0 10px;
+  }
+}

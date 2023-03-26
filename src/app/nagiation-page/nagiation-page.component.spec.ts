@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ClassScssComponent } from './class.scss.component';
+import { NagiationPageComponent } from './nagiation-page.component';
 
-describe('ClassScssComponent', () => {
-  let component: ClassScssComponent;
-  let fixture: ComponentFixture<ClassScssComponent>;
+describe('NagiationPageComponent', () => {
+  let component: NagiationPageComponent;
+  let fixture: ComponentFixture<NagiationPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ClassScssComponent ]
+      declarations: [ NagiationPageComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ClassScssComponent);
+    fixture = TestBed.createComponent(NagiationPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

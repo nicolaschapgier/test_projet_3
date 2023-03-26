@@ -1,0 +1,60 @@
+@import "../../styles.scss";
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5vh;
+  border: 1px solid lightgrey;
+  p,
+  i {
+    margin: 0 10px;
+  }
+  .icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $second-color-default;
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5vh;
+    border-radius: 50%;
+    cursor: pointer;
+    animation-name: button-appear;
+    animation-duration: 0.5s;
+    font-size: 25px;
+  }
+  .fa-universal-access {
+    font-size: 25px;
+  }
+}
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+.spans {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  background-color: black;
+  height: 3px;
+  width: 25px;
+  margin: 3px;
+}
+// MAGIIIIIIIIIIIIIIIIIE
+
+@keyframes button-appear {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+}

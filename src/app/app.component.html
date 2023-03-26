@@ -1,1 +1,60 @@
+<app-header></app-header>
+
 <router-outlet></router-outlet>
+
+<div *ngIf="footer">
+  <app-footer></app-footer>
+</div>
+<div *ngIf="test">bite</div>
+<!-- <app-footer></app-footer> -->
+<!-- <div *ngIf="si connecté alors on afficher footer-connecté"> -->
+<!-- app footer-simple
+  app footer-connecté -->
+<!-- </div> -->
+
+<!-- Les composants :
+
+Tous les H2 dans le css général (h2 = Mon profil, Ma famille, Mes demandes en cours etc)
+Bouton (border-radius, box-shadow)
+
+Dossier : 
+          header
+          footer
+            footerConnect (on insère dans le footer le component menuBurger)
+            footerNotConnect
+          accueil
+            navigationPage (Une seule card dans laquelle on *ngFor dessus les "mon profil", "ma famille" etc..)
+          profil
+            profilePage
+            modifierProfilePage
+            modifierMotDePassePage
+          famille
+            famillePage
+            ajouterMembrePage
+          modal
+            retirerMembre/annulerDemandePage
+          demande
+            demandeEnCoursPage
+            maDemandePage(quand on clique sur une demande)
+          pertéVol
+            perteVolPage
+            honneurPage
+            déclarationDeVolPage
+          demandeDeFc
+            demandeDeFcPage
+          erreur
+          menu
+            accessibilitePage
+            menuBurger(possède les 3 span ainsi que la modal qui arrive du bas mother fucker)
+          connexion
+            connexionPage
+            recevoirMotDePassePage
+            incriptionPage
+          admin
+            userListPage
+            userDemandePage
+            addMemberPage
+            addFcPage
+            manageLoosePage
+
+-->

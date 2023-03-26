@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ClassScssComponent } from './class.scss/class.scss.component';
+import { NagiationPageComponent } from './nagiation-page/nagiation-page.component';
 
 const routes: Routes = [
-  {path : "", component : ClassScssComponent}
+  { path: 'navigation', component: NagiationPageComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
